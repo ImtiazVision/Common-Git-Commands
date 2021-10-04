@@ -12,25 +12,25 @@ Core initial Commands
 
 **To create a main branch:**
 
-git branch -M main
+`git branch -M main`
 
 To clone a repo from GitHub:
 
-git clone [url]
+`git clone [url]`
 
 To move/navigate to a branch:
 
-git checkout -b [branch name]
+`git checkout -b [branch name]`
 
-git pull origin main/master
+`git pull origin main/master`
 
 To add remote repo to local computer:
 
-git remote add origin [repository url]
+`git remote add origin [repository url]`
 
 To check the remote version of the repo
 
-git remote -v
+`git remote -v`
 
 Troubleshooting commands
 
@@ -40,9 +40,9 @@ You can always use the reflog as well. git reflog  will display any change w
 
 **Every time the HEAD is modified there will be a new entry in the reflog**
 
-git reflog
+`git reflog`
 
-git checkout HEAD@{...}
+`git checkout HEAD@{...}`
 
 This will get you back to your desired commit
 
@@ -56,15 +56,14 @@ Move" your head back to the desired commit.
 
 # Don't do it if you have uncommitted work you want to keep.
 
-git reset --hard 0d1d7fc32
-
+`git reset --hard 0d1d7fc32`
 # Alternatively, if there's work to keep:
 
-git stash
+`git stash`
 
-git reset --hard 0d1d7fc32
+`git reset --hard 0d1d7fc32`
 
-git stash pop
+`git stash pop`
 
 # This saves the modifications, then reapplies that patch after resetting.
 
