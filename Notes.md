@@ -79,11 +79,11 @@ Move" your head back to the desired commit.
 
 - this will save your changes in a new branch called tmp.
 
-1. Run the following command
+2. Run the following command
 
   `git checkout master`
   
-1. If you would like to incorporate the changes you made into **master**, run the following command
+3. If you would like to incorporate the changes you made into **master**, run the following command
 
  `git merge tmp`
 
@@ -95,7 +95,7 @@ ________________________________________________________________________________
 
 **To update the branch:**
 
-git push --set-upstream origin master
+`git push --set-upstream origin master`
 
 **To remove remote repository URL when troubleshooting**:
 
@@ -105,31 +105,31 @@ git push --set-upstream origin master
 
 **! [rejected]        master -> master (non-fast-forward)**
 
-git pull --rebase origin master
+`git pull --rebase origin master`
 
-git pull --rebase origin <name of the branch>   avoid non-fast-forward errors.
+`git pull --rebase origin <name of the branch>`   to avoid non-fast-forward errors.
 
 If there is an merge conflict, we can manually fix them on VS Code and then type following command
 
-git rebase --continue
+`git rebase --continue`
 
 then we add the files and continue with rebase
 
-git add .
+`git add .`
 
-git rebase --continue
+`git rebase --continue`
 
 If we want to skip this commit, type the following:
 
-git rebase --skip
+`git rebase --skip`
 
 If we want to abort the whole rebase and go to the state before "git rebase"
 
-git rebase --abort
+`git rebase --abort`
 
 Then we perform git push to submit the code
 
-git push -u origin master
+`git push -u origin master`
 
 _______________________________________________________________________________________________
 
