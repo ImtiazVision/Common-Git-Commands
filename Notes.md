@@ -75,19 +75,21 @@ Move" your head back to the desired commit.
 
 1. Run the following command
 
-git branch tmp
+  `git branch tmp`
 
 - this will save your changes in a new branch called tmp.
 
 1. Run the following command
 
-git checkout master
-
+  `git checkout master`
+  
 1. If you would like to incorporate the changes you made into **master**, run the following command
 
-git merge tmp
+ `git merge tmp`
 
-from the **master** branch. You should be on the master branch after running **git checkout master**.
+from the **master** branch. You should be on the master branch after running
+  
+  `git checkout master`
 
 _______________________________________________________________________________________________
 
