@@ -135,11 +135,11 @@ ________________________________________________________________________________
 
 ## This is important when git refuses to merge unrelated histories:
 
-git merge --allow-unrelated-histories branch-name-to-be-merged
+`git merge --allow-unrelated-histories branch-name-to-be-merged`
 
-git pull --allow-unrelated-histories origin master/main
+`git pull --allow-unrelated-histories origin master/main`
 
-git push -u origin master/main
+`git push -u origin master/main`
 
 Alternately, We can solve this same merge conflict problem with following command  and this is the easier way 👇👇👇👇👇
 
@@ -151,9 +151,9 @@ ________________________________________________________________________________
 
 # To Create a new repository on the command line:
 
-echo "# HTML-CSS-Practice" >> README.md
+`echo "# HTML-CSS-Practice" >> README.md`
 
-git init
+`git init`
 
 git add README.md
 
