@@ -1,4 +1,4 @@
-### On GitHub, saved changes are called commits.
+### On GitHub, saved changes are called commits
 
 Core initial Commands
 
